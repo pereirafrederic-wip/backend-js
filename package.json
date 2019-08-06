@@ -1,0 +1,33 @@
+{
+  "name": "backendjs",
+  "version": "1.0.0",
+  "description": "des backends en JS (express, koa, nest, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "express-hello": "node ./src/express/HelloWorld.js",
+    "express-static": "node ./src/express/Static.js",
+    "express-mount": "node ./src/express/Mount.js",
+    "express-all": "node ./src/express/All.js",
+    "express-crud": "node ./src/express/Crud.js",
+    "express-settings": "node ./src/express/Settings.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pereirafrederic/backend-js.git"
+  },
+  "keywords": [
+    "express",
+    "koa",
+    "nest"
+  ],
+  "author": "pereirafrédéric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pereirafrederic/backend-js/issues"
+  },
+  "homepage": "https://github.com/pereirafrederic/backend-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
