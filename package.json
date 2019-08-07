@@ -10,7 +10,9 @@
     "express-mount": "node ./src/express/Mount.js",
     "express-all": "node ./src/express/All.js",
     "express-crud": "node ./src/express/Crud.js",
-    "express-settings": "node ./src/express/Settings.js"
+    "express-settings": "node ./src/express/Settings.js",
+    "koa-base": "node ./src/koa/base.js",
+    "koa-crud": "node ./src/koa/Crud.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,21 @@
   },
   "homepage": "https://github.com/pereirafrederic/backend-js#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@nestjs/cli": "^6.6.3",
+    "ejs": "^2.5.6",
+    "express": "^4.17.1",
+    "fs-promise": "^2.0.3",
+    "koa": "^2.7.0",
+    "koa-basic-auth": "^2.0.0",
+    "koa-body": "^4.0.8",
+    "koa-compose": "^4.0.0",
+    "koa-csrf": "^3.0.6",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "koa-session": "^5.0.0",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "streaming-json-stringify": "^3.1.0",
+    "swig": "^1.4.2"
   }
 }
