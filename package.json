@@ -32,7 +32,7 @@
   "dependencies": {
     "@nestjs/cli": "^6.6.3",
     "ejs": "^2.5.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs-promise": "^2.0.3",
     "koa": "^2.7.0",
     "koa-basic-auth": "^2.0.0",
